@@ -9,7 +9,7 @@ document.body.addEventListener('mousemove', function (e) {
     let blue = (x / width + y / height) * 50;
     h1.textContent = x + ', ' + y;
     document.body.style.backgroundColor = `rgb(${red}%, ${green}%, ${blue}%)`;
-    if (x < 200 || y < 200) {
+    if (x < 300 || y < 300) {
         document.body.style.color = 'white';
     } else {
         document.body.style.color = 'black';
